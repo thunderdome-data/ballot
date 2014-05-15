@@ -1,0 +1,160 @@
+body { color: #000; }
+h1 { font: bold 18px Arial; margin-bottom: 10px; color: #999; }
+h2 { font: 14px Arial; margin-bottom: 10px; color: #4d4d4d; font-family: 'Open Sans Condensed', sans-serif; font-weight: bold; }
+h3 { font: 12px Arial; margin-bottom: 10px; color: #999;}
+h4 { font: bold 13px Arial; color: #999; margin-left: -10px }
+.desc { font: 11px Arial; margin-top: 10px; color: #666;}
+.crit { font: 14px Arial; margin-top: 10px; color: #666; max-width: 550px; margin-bottom: 15px; }
+
+#categories_btn { }
+#results_right { float: right; margin-left: 300px; }
+#results_left { float: left; }
+
+#nominees { display: none; margin-left: 0px; }
+#results, #print { display: none;  position: absolute; background-color: #FFF; padding: 20px; border: 1px solid #f7f7f7; z-index: 102; border: 1px solid #CCC;
+	-moz-box-shadow: 0 0 15px #999;
+	-webkit-box-shadow: 0 0 15px #999;
+	box-shadow: 0 0 15px #999;
+	margin-left: auto;
+	margin-right: auto;
+	width: 330px; 
+	left: 75px;
+	top: 85px; 
+	border-radius: 5px; 
+	-moz-border-radius: 5px; 
+	-webkit-border-radius: 5px; 
+}
+#compare { display: none; }
+#print { height: 475px; overflow-y: auto; width: 363px; }
+#print h2 {font-size: 18px;}
+#print input { margin-left: 30px; margin-bottom: 7px; }
+
+#btnNav { margin-left: 20px;}
+.readmore { font-size: 12px; }
+
+/* bootstrap overrides */
+.btn-group {margin-top: 10px;}
+.popover-content { color: #333; }
+.votePerc { margin-left: 10px; font: 11px Arial; width: 75px; float: left; color: #666; }
+.percent { font: bold 16px Arial; }
+
+.nav-pills > .active > a, .nav-pills > .active > .nav-pills > .active > a:focus { background-color: #f7f7f7; color: #0088cc; text-shadow: white 0.1em 0.1em 0.2em; }
+.nav-pills > .active > a:hover { background-color: #eee; color: #0088cc; }
+.nav-pills > li > a { background-color: #f7f7f7; }
+.nav-pills > li > a:hover { background-color: #eee; }
+.nav { margin-bottom: 5px; }
+
+.endscreen_thumb {list-style-type: none; margin: 10px 0 0 0;}
+.endscreen_thumb li { float: left; margin: 0px 8px 8px 0px; border: 1px solid #efefef; padding: 0px; clear: none; background-color: #f7f7f7; min-height: 210px; width: 172px; }
+#categories .endscreen_thumb li { min-height: 160px; width: 172px;}
+#nominees .endscreen_thumb li { width: 172px;}
+.endscreen_thumb li:hover { border: 1px solid #ccc; }
+.endscreen_thumb img { width: 150px; height: 100px; margin: 10px;}
+p.end_thumb { margin-left: 10px; color: #4d4d4d; font-family: 'Open Sans Condensed', sans-serif; font-weight: bold; font-size: 14px; max-width: 150px}
+.vote_btn { margin: 0 0 10px 10px; float: left; }
+/*added*/
+.readmore { font-size: 12px; float: right; margin-right: 10px; }
+a.fancyPop { color: #BBB; text-decoration: none; }
+
+a.nomSelect { display: block; width: 170px; height: 110px; margin-bottom: 10px;}
+
+.movieName { font: 11px Arial; color: #666;}
+.closebtn { font: 11px Arial; color: #999; float: right; margin-bottom: 10px; cursor: pointer; width: 43px; height: 23px;}
+.closebtn:hover { color: #000; }
+
+.notvoted { color: #999; padding: 7px; }
+.uservoted { color: #FFB737; font-weight: bold; background: #f7f7f7; padding:7px; border: 1px solid #999; } /* #f7f7f7 */
+
+.winner { border: 1px solid #ffcc00 !important; background-color: #fdf6dd !important; }
+
+#modcover {
+	width: 100%;
+	height: 100%;
+	background-color: rgba(255, 255, 255, .75);
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	opacity: 0;
+	z-index: 101;
+}
+
+#sourceCreds {
+	font: italic 11px Arial; 
+	color: #999; 
+	margin: 10px 0 10px 0px; 
+	border-top: 1px solid #e2e2e2; 
+	padding: 5px 0 0 0;
+	max-width: 550px; 
+}
+
+//results page styling
+
+.topVote {
+	/*float: left;*/
+	width: 212px;
+	height: 488px;
+	margin-right: 22px;
+	border: 1px solid #3d3f41;
+	background: #1d1d1d;
+	padding: 12px;
+	position: relative;
+}
+
+.topVote img {width: 271px;}
+
+.topVote .percent {
+	padding: 14px 14px 14px 14px;
+	width: 243px;
+	margin: 16px 0 5px 0;
+	text-align: center;
+	background-position: 0 -110px;
+	box-shadow: 0 0 2px #CCC;
+	-webkit-box-shadow: 0 0 2px #CCC;
+	-moz-box-shadow: 0 0 2px #CCC;
+}
+
+.tp span { color: #FFB737; text-transform: uppercase; }
+
+
+
+#results .active {
+	background-color: #e4eff4;
+}
+.bwrap {
+	float: left;
+	width: 300px;
+	padding: 5px;
+	margin: 0 20px 0 -12px;
+	position: relative;
+}
+
+.bwrap span {
+	float: right;
+	
+	color: #999;
+	font-size: 10px;
+}
+
+.bwrap strong { font-size: 12px !important }
+.bar {
+	margin: 2px 0 2px 0;
+	text-shadow: 0 0 1px #000;
+	background: #f7f7f7;
+	overflow: hidden;
+	position: relative;
+
+}
+
+
+.bar .color {
+	background-position: 0 -16px;
+	height: 15px;
+	padding: 0;
+	font-size: 16px;
+	font-weight: bold;
+	width: 0px;
+	background: #FFB737;
+	
+}
+
+.container { width: 580px; }
