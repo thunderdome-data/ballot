@@ -1,12 +1,13 @@
-Oscar Ballot 2014
+Ballot
 ========================
 
 What is this?
 -------------
 
-A PHP and JS tool to display nominees in an event and collect user votes on predicted winners. This iteration was used for the 2014 Oscars.
+A PHP and JS tool to display nominees in an event and collect user votes on predicted winners. We used this several times, and this iteration was for the 2014 Oscars.
 Demo: http://data.digitalfirstmedia.com/oscarballot14/
 
+![Screenshot of the costumes category](screenshots/costume.png)
 
 Credits
 ---------
